@@ -1,4 +1,9 @@
-opencv-python-headless
-opencv-python
-opencv_contrib_python
+StandardScaler
 matplotlib
+plotly
+openpyxl
+altair
+numpy
+pandas
+pydeck
+streamlit
