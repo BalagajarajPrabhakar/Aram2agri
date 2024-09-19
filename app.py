@@ -69,7 +69,7 @@ def main():
                         st.bar_chart(data[['reading_time', 'location']].set_index('reading_time'))
                     else:
                         st.warning("Data does not contain required columns for charting.")
-                    st.header("Ethylene Level")
+                    st.header("Water flow")
                     if 'reading_time' in data.columns and 'distance' in data.columns:
                         # Line Chart
                         st.subheader("Line Chart")
